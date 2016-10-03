@@ -23,11 +23,11 @@ DOL开发环境配置
        * `mkdir dol`
        * `unzip dol_ethz.zip -d dol`
      * 修改build_zip.xml文件中systemc的位置 ![环境变量](https://raw.githubusercontent.com/LyingChild/ES2016_14353423/master/Image_for_readme/build_zip.JPG)
-     * 编译dol：`ant -f build_zip.xml all` ![buildSucc](https://raw.githubusercontent.com/LyingChild/ES2016_14353423/master/Image_for_readme/ant_f_20build_zip.png)
+     * 编译dol：`ant -f build_zip.xml all` ![buildSucc](https://raw.githubusercontent.com/LyingChild/ES2016_14353423/master/Image_for_readme/ant_f_build_zip.png)
   * **运行示例**
      * 进入mian目录并运行示例
         * `cd build/bin/main`
         * `ant -f runexample.xml -Dnumber=1` ![test](https://github.com/LyingChild/ES2016_14353423/blob/master/Image_for_readme/%E7%BC%96%E8%AF%91dol.png?raw=true)
      * 结果如下：
-    ![dot](http://odu4grc0f.bkt.clouddn.com/%E6%8D%95%E8%8E%B7.JPG)
+    ![dot](https://github.com/LyingChild/ES2016_14353423/blob/master/Image_for_readme/%E6%8D%95%E8%8E%B7.JPG?raw=true)
     
