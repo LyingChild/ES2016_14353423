@@ -37,4 +37,7 @@ DOL框架
         * `ant -f runexample.xml -Dnumber=1` ![test](https://github.com/LyingChild/ES2016_14353423/blob/master/Image_for_readme/%E7%BC%96%E8%AF%91dol.png?raw=true)
      * 结果如下：<br>
     ![dot](https://github.com/LyingChild/ES2016_14353423/blob/master/Image_for_readme/%E6%8D%95%E8%8E%B7.JPG?raw=true)
-    
+### 实验感想
+  * 在安装环境的时候没出什么大问题,只是因为之前把虚拟机设置成中文导致build过程过不去,把系统改回英语就解决了,安装过程更需要的是发现问题的方法,这次错误提示在中文的那行,然后想到大部分开发包都是不支持中文的,试了一下成功解决
+  * 学会了markdown的基本语句,相较之下,md没有那么多的规则,写起来也随意.舒服很多,不过也因为语言本身就实现了很多,有时候会遇到只了解表层没法解决的问题
+  * 初步学会了使用git来实现版本管理,并用github托管
