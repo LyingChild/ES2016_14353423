@@ -23,7 +23,7 @@
         *  `unzip dol_ethz.zip -d dol`
     *  修改build_zip.xml文件中systemc的位置 ![环境变量](http://odu4grc0f.bkt.clouddn.com/build_zip.JPG)
     *  编译dol：`ant -f build_zip.xml all` ![buildSucc](http://odu4grc0f.bkt.clouddn.com/ant_f%20build_zip.png)
-  *  ###运行示例
+  *  运行示例
     *  进入mian目录并运行示例
         *  `cd build/bin/main`
         *  `ant -f runexample.xml -Dnumber=1` ![test](http://odu4grc0f.bkt.clouddn.com/%E7%BC%96%E8%AF%91dol.png)
