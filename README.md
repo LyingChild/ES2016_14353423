@@ -16,18 +16,18 @@ DOL开发环境配置
    	 * 进入systemc-2.3.1文件夹：`cd systemc-2.3.1`
    	 * 新建文件夹objdir：`mkdir objdir`
    	 * 进入文件夹：`cd objdir`
-   	 * 运行configure：`../configure CXX=g++ --disable-async-updates` ![运行configure](https://github.com/LyingChild/ES2016_14353423/Image/configure.png)
-   	 * 编译systemc：`sudo make install` ![编译systemc](https://github.com/ES2016_14353423/Image/make systemc.png)
+   	 * 运行configure：`../configure CXX=g++ --disable-async-updates` ![运行configure](https://raw.githubusercontent.com/LyingChild/ES2016_14353423/master/Image_for_readme/configure.png)
+   	 * 编译systemc：`sudo make install` ![编译systemc](https://raw.githubusercontent.com/LyingChild/ES2016_14353423/master/Image_for_readme/make_systemc.png)
   * **编译dol**
      * 在home目录新建dol文件夹，将dol_ethz.zip解压到里面
        * `mkdir dol`
        * `unzip dol_ethz.zip -d dol`
-     * 修改build_zip.xml文件中systemc的位置 ![环境变量](https://github.com/ES2016_14353423/Image/build_zip.JPG)
-     * 编译dol：`ant -f build_zip.xml all` ![buildSucc](https://github.com/ES2016_14353423/Image/ant_f 20build_zip.png)
+     * 修改build_zip.xml文件中systemc的位置 ![环境变量](https://raw.githubusercontent.com/LyingChild/ES2016_14353423/master/Image_for_readme/build_zip.JPG)
+     * 编译dol：`ant -f build_zip.xml all` ![buildSucc](https://raw.githubusercontent.com/LyingChild/ES2016_14353423/master/Image_for_readme/ant_f_20build_zip.png)
   * **运行示例**
      * 进入mian目录并运行示例
         * `cd build/bin/main`
-        * `ant -f runexample.xml -Dnumber=1` ![test](http://odu4grc0f.bkt.clouddn.com/%E7%BC%96%E8%AF%91dol.png)
+        * `ant -f runexample.xml -Dnumber=1` ![test](https://github.com/LyingChild/ES2016_14353423/blob/master/Image_for_readme/%E7%BC%96%E8%AF%91dol.png?raw=true)
      * 结果如下：
     ![dot](http://odu4grc0f.bkt.clouddn.com/%E6%8D%95%E8%8E%B7.JPG)
     
