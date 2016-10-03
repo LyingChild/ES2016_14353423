@@ -16,7 +16,7 @@ DOL开发环境配置
    	 * 进入systemc-2.3.1文件夹：`cd systemc-2.3.1`
    	 * 新建文件夹objdir：`mkdir objdir`
    	 * 进入文件夹：`cd objdir`
-   	 * 运行configure：`../configure CXX=g++ --disable-async-updates` ![运行configure](https://github.com/ES2016_14353423/Image/configure.png)
+   	 * 运行configure：`../configure CXX=g++ --disable-async-updates` ![运行configure](https://github.com/LyingChild/ES2016_14353423/Image/configure.png)
    	 * 编译systemc：`sudo make install` ![编译systemc](https://github.com/ES2016_14353423/Image/make systemc.png)
   * **编译dol**
      * 在home目录新建dol文件夹，将dol_ethz.zip解压到里面
