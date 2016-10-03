@@ -4,12 +4,13 @@ DOL开发环境配置
   * 编译systemc
   * 编译dol
   * 运行示例
+
 ## 具体过程
-### 安装ANT和Java环境
-由于虚拟机中的ubuntu为32位，所以没有用提供的64位JDK，而是在线安装java环境。 另：由于此部分均为在线安装，过程较简单，所以没有截图也不会外加描述
-##### 更新软件包信息：`sudo apt-get update`
-    * #####安装ANT包：`sudo apt-get install ant`
-    * #####安装JDK：`sudo apt-get install openjdk-7-jdk`
+  * 安装ANT和Java环境
+  由于虚拟机中的ubuntu为32位，所以没有用提供的64位JDK，而是在线安装java环境。 另：由于此部分均为在线安装，过程较简单，所以没有截图也不会外加描述
+  * 更新软件包信息：`sudo apt-get update`
+    * 安装ANT包：`sudo apt-get install ant`
+    * 安装JDK：`sudo apt-get install openjdk-7-jdk`
   * ###编译systemc
    	* #####将systemc-2.3.1.tgz包拷到虚拟机中并解压(图形界面)
    	* #####进入systemc-2.3.1文件夹：`cd systemc-2.3.1`
