@@ -28,6 +28,6 @@ DOL开发环境配置
      * 进入mian目录并运行示例
         * `cd build/bin/main`
         * `ant -f runexample.xml -Dnumber=1` ![test](https://github.com/LyingChild/ES2016_14353423/blob/master/Image_for_readme/%E7%BC%96%E8%AF%91dol.png?raw=true)
-     * 结果如下：
+     * 结果如下：<br>
     ![dot](https://github.com/LyingChild/ES2016_14353423/blob/master/Image_for_readme/%E6%8D%95%E8%8E%B7.JPG?raw=true)
     
