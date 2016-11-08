@@ -9,6 +9,7 @@ Lab4:Deadlock
   * 第一次运行的结果
   
     ![connection](https://raw.githubusercontent.com/LyingChild/ES2016_14353423/master/Image/ForDeadlock/count=11111.png)
+    
     ![connection](https://raw.githubusercontent.com/LyingChild/ES2016_14353423/master/Image/ForDeadlock/死锁count=11111.png)
   * 其他时间再次运行的结果
   
