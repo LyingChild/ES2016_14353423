@@ -46,6 +46,7 @@ class B {
 1. 阻塞当前被修饰的代码: 如果被修饰的代码块正在被一个线程使用的同时另一线程也要调用，则后调用的线程被阻塞。
 
 2. 阻塞其他被synchronized修饰的块或方法：object中的一个synchronized修饰的代码块或方法被访问时，object中其他synchronized修饰的块或方法的访问被阻塞。
+  
 * Deadlock
 ```Java
 public class Deadlock implements Runnable{
