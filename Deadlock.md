@@ -1,9 +1,9 @@
 Lab4:Deadlock
 ====
 
-* ## 代码运行结果展示
-* ## 死锁产生的必要条件
-* ## 代码分析
+## 代码运行结果展示
+## 死锁产生的必要条件
+## 代码分析
 
 ## 代码运行结果展示
   * 第一次运行的结果
@@ -22,7 +22,7 @@ Lab4:Deadlock
 
 ## 代码分析
   * Class A && Class B
-```
+```Java
 class A {
     synchronized void methodA(B b) {
 	      b.last();
