@@ -2,9 +2,9 @@ Cartographer安装&&体验
 ===
 ROS indigo在Ubuntu14.04上的安装详见上一份实验报告，这部分为cartographer在ROS indigo中的安装流程
 
-* ### 安装过程
-* ### 体验
-* ### 感想
+* 安装过程
+* 体验
+* 感想
 
 ## Cartographer安装(路径自定)
   * 安装依赖性：`sudo apt-get install -y google-mock libboost-all-dev  libeigen3-dev libgflags-dev libgoogle-glog-dev liblua5.2-dev libprotobuf-dev  libsuitesparse-dev libwebp-dev ninja-build protobuf-compiler python-sphinx  ros-indigo-tf2-eigen libatlas-base-dev libsuitesparse-dev liblapack-dev python-wstool python-rosdep`,一次性将所有依赖的包全部安装，避免后面的步骤出现缺少依赖包的错误，在此之前需添加ROS的源(如果之前没添加的话)。** 其他ROS版本需将 ros-indigo-tf2-eigen 包换成对应版本的包，例如：ROS jade换成ros-jade-tf2-eigen **
@@ -36,11 +36,14 @@ ROS indigo在Ubuntu14.04上的安装详见上一份实验报告，这部分为ca
     3. 检测编译环境，并指定生成的makefile为Ninja: `cmake .. -G Ninja`
     ![connection](https://raw.githubusercontent.com/LyingChild/ES2016_14353423/master/Image/ForCartographer/cmake-G-Ninja.png)
     4. 编译：`ninja`
-    ![connection](https://raw.githubusercontent.com/LyingChild/ES2016_14353423/master/Image/ForCartographer/ninja.png)
+    
+        ![connection](https://raw.githubusercontent.com/LyingChild/ES2016_14353423/master/Image/ForCartographer/ninja.png)
     5. 检测编译后的完整性：`ninja test`
-    ![connection](https://raw.githubusercontent.com/LyingChild/ES2016_14353423/master/Image/ForCartographer/ninja-test.png)
+    
+        ![connection](https://raw.githubusercontent.com/LyingChild/ES2016_14353423/master/Image/ForCartographer/ninja-test.png)
     6. 安装：`sudo ninja install`
-    ![connection](https://raw.githubusercontent.com/LyingChild/ES2016_14353423/master/Image/ForCartographer/sudo-ninja-install.png)
+    
+        ![connection](https://raw.githubusercontent.com/LyingChild/ES2016_14353423/master/Image/ForCartographer/sudo-ninja-install.png)
 
     * Tip: 相比于安装ceres solver中使用的make来进行编译，ninja的编译速度更快。也可以将此部分的3-6步换成
     ```
